@@ -10,7 +10,7 @@ function ordenar(){
     console.log(array);
 
     if(/[A-z]/.test(input.value) || input.value == ''){
-        alert("Dados n„o s„o n˙mericos!");
+        alert("Dados n√£o n√£o n√∫mericos!");
     }
     else{
         document.getElementById("retorno").innerHTML = array.sort(compararNumeros);
